@@ -1,0 +1,8 @@
+--- tonlib/CMakeLists.txt.orig	2020-06-09 21:50:33 UTC
++++ tonlib/CMakeLists.txt
+@@ -165,3 +165,5 @@ install(FILES "TonlibConfig.cmake" "${CMAKE_CURRENT_BI
+ 
+ # Add SOVERSION to shared libraries
+ set_property(TARGET tonlibjson PROPERTY SOVERSION ${TON_VERSION})
++
++install(TARGETS tonlib-cli RUNTIME DESTINATION bin)
