@@ -1,6 +1,6 @@
-TIMESTAMP = 1591741788
-SHA256 (ton-blockchain-ton-20200610-dbde9c1_GH0.tar.gz) = d31c9ba4b4ff05b212573999ac0033194c7ecc4e392d71548b58a6509deec893
-SIZE (ton-blockchain-ton-20200610-dbde9c1_GH0.tar.gz) = 11507108
+TIMESTAMP = 1594072737
+SHA256 (ton-blockchain-ton-v0.a2-f064b10_GH0.tar.gz) = d20de52e3e579b98789aae8c0d190e413c05bd079366d7344601d252ed020456
+SIZE (ton-blockchain-ton-v0.a2-f064b10_GH0.tar.gz) = 11531525
 SHA256 (abseil-abseil-cpp-df3ea78_GH0.tar.gz) = 08e3e8a9f058b2fab703dc653c34c22b375b99c5cd02b80c7b2deeac3e242710
 SIZE (abseil-abseil-cpp-df3ea78_GH0.tar.gz) = 1679608
 SHA256 (facebook-rocksdb-0915c99_GH0.tar.gz) = 70efdea53e96b416c488b2533eb5b754292c25a4864d886db8a8dbdde0bda87d
@@ -9,5 +9,3 @@ SHA256 (ton-blockchain-libRaptorQ-14baff5_GH0.tar.gz) = 3b9ff2ae24919a89c4a6bbab
 SIZE (ton-blockchain-libRaptorQ-14baff5_GH0.tar.gz) = 2355523
 SHA256 (google-crc32c-fd33bcc_GH0.tar.gz) = e8f814404d133ac1026e500d86a395c1fd678ce831e35bc5c53af15b6a638b23
 SIZE (google-crc32c-fd33bcc_GH0.tar.gz) = 29646
-SHA256 (sonofmom-freebsd_ton_guide-343d3d1_GH0.tar.gz) = cd6c39655a6777883e8d01cf38da6b3e7479b264717432587c8856ff79137e96
-SIZE (sonofmom-freebsd_ton_guide-343d3d1_GH0.tar.gz) = 11922
