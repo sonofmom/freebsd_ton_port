@@ -2,13 +2,13 @@
 
 PORTNAME=      ton-node 
 DISTVERSIONPREFIX=v
-DISTVERSION=   0.2.alpha
+DISTVERSION=   0.8.beta
 PORTREVISION=  0
 
 USE_GITHUB=    yes
 GH_ACCOUNT=    newton-blockchain
 GH_PROJECT=    ton
-GH_TAGNAME=    5e1db6f
+GH_TAGNAME=    4f0480b
 GH_TUPLE=      abseil:abseil-cpp:df3ea78:abseilcpp \
                facebook:rocksdb:0915c99:rocksdb \
                ton-blockchain:libRaptorQ:14baff5:libRaptorQ \
@@ -22,13 +22,14 @@ GH_SUBDIR=     third-party/abseil-cpp:abseilcpp \
 CATEGORIES=    net-p2p
 
 MAINTAINER=    sonofmom92@gmail.com
-COMMENT=       Telegram Open Network (TON) blockchain platform
+COMMENT=       The Open Network (TON) blockchain platform
 
 USERS=        tond
 GROUPS=       tond
 
 USES=		cmake
-CMAKE_ON=	USE_RTTI
+CMAKE_ON=	USE_RTTI CMAKE_INSTALL_DO_STRIP
+CMAKE_ARGS=	-D CMAKE_CXX_FLAGS="-march=znver2 -Ofast -ffast-math"
 
 #DISTDIR=	/tmp
 

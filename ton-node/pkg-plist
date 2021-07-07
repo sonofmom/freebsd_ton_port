@@ -4,6 +4,7 @@ bin/fift
 bin/func
 bin/generate-random-id
 bin/lite-client
+bin/pow-miner
 bin/tonlib-cli
 bin/validator-engine
 bin/validator-engine-console
@@ -46,6 +47,8 @@ share/ton/smartcont/auto/multisig-code.cpp
 share/ton/smartcont/auto/multisig-code.fif
 share/ton/smartcont/auto/payment-channel-code.cpp
 share/ton/smartcont/auto/payment-channel-code.fif
+share/ton/smartcont/auto/pow-testgiver-code.cpp
+share/ton/smartcont/auto/pow-testgiver-code.fif
 share/ton/smartcont/auto/restricted-wallet-code.cpp
 share/ton/smartcont/auto/restricted-wallet-code.fif
 share/ton/smartcont/auto/restricted-wallet2-code.cpp
@@ -86,6 +89,7 @@ share/ton/smartcont/new-highload-wallet-v2.fif
 share/ton/smartcont/new-highload-wallet.fif
 share/ton/smartcont/new-manual-dns.fif
 share/ton/smartcont/new-pinger.fif
+share/ton/smartcont/new-pow-testgiver.fif
 share/ton/smartcont/new-restricted-wallet.fif
 share/ton/smartcont/new-restricted-wallet2.fif
 share/ton/smartcont/new-restricted-wallet3.fif
@@ -94,6 +98,7 @@ share/ton/smartcont/new-wallet-v2.fif
 share/ton/smartcont/new-wallet-v3.fif
 share/ton/smartcont/new-wallet.fif
 share/ton/smartcont/payment-channel-code.fc
+share/ton/smartcont/pow-testgiver-code.fc
 share/ton/smartcont/recover-stake.fif
 share/ton/smartcont/restricted-wallet-code.fc
 share/ton/smartcont/restricted-wallet2-code.fc
