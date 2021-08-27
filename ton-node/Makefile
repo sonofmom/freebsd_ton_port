@@ -2,13 +2,13 @@
 
 PORTNAME=      ton-node 
 DISTVERSIONPREFIX=v
-DISTVERSION=   0.8.beta
+DISTVERSION=   0.9.beta
 PORTREVISION=  0
 
 USE_GITHUB=    yes
 GH_ACCOUNT=    newton-blockchain
 GH_PROJECT=    ton
-GH_TAGNAME=    4f0480b
+GH_TAGNAME=    d08f300
 GH_TUPLE=      abseil:abseil-cpp:df3ea78:abseilcpp \
                facebook:rocksdb:0915c99:rocksdb \
                ton-blockchain:libRaptorQ:14baff5:libRaptorQ \

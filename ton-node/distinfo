@@ -1,6 +1,6 @@
-TIMESTAMP = 1624920687
-SHA256 (newton-blockchain-ton-v0.8.beta-4f0480b_GH0.tar.gz) = bbc497f63c86f74b925d384cd2bc3509971e3c3445414cfb4da9c3f84b0040d0
-SIZE (newton-blockchain-ton-v0.8.beta-4f0480b_GH0.tar.gz) = 11573933
+TIMESTAMP = 1629815379
+SHA256 (newton-blockchain-ton-v0.9.beta-d08f300_GH0.tar.gz) = 4c69c9ab616800146f0c6fa8c377cdebe24975d08816e5ac799d3d1e1f5f8d09
+SIZE (newton-blockchain-ton-v0.9.beta-d08f300_GH0.tar.gz) = 11576942
 SHA256 (abseil-abseil-cpp-df3ea78_GH0.tar.gz) = 08e3e8a9f058b2fab703dc653c34c22b375b99c5cd02b80c7b2deeac3e242710
 SIZE (abseil-abseil-cpp-df3ea78_GH0.tar.gz) = 1679608
 SHA256 (facebook-rocksdb-0915c99_GH0.tar.gz) = 70efdea53e96b416c488b2533eb5b754292c25a4864d886db8a8dbdde0bda87d
